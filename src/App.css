@@ -1,0 +1,21 @@
+* {
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: -1px;
+  transition: all 0.4s;
+}
+a {
+  color: #2b64bf;
+}
+button:focus {
+  box-shadow: none !important;
+}
+input {
+  border-color: rgb(59, 59, 59) !important;
+}
+input:focus {
+  box-shadow: none !important;
+  border-color: rgb(59, 59, 59) !important;
+}
+html {
+  scroll-behavior: smooth;
+}

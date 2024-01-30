@@ -1,0 +1,9 @@
+footer p {
+	color: white;
+}
+footer a {
+	color: #ff4a64;
+}
+footer a:hover {
+	color: rgba(255, 255, 255, 0.8);
+}

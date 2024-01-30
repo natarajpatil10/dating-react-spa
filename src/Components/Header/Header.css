@@ -1,0 +1,46 @@
+.nav-links:hover {
+  color: #ff4a64;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.vertical-line {
+  background-color: black;
+  height: 1rem;
+  width: 1.4px;
+  margin-bottom: 13px;
+}
+.header-breadcrumb {
+  background-color: transparent !important;
+}
+
+@media screen and (max-width: 767.98px) {
+  .hide-firstRow {
+    display: none !important;
+  }
+  .header-breadcrumb {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  .third-row-p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hide-categories {
+    display: none !important;
+  }
+  .show-signup,
+  .show-logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header-breadcrumb {
+    font-size: 0.8rem;
+    width: 100%;
+    display: block;
+  }
+  .third-row-p {
+    font-size: 0.8rem;
+  }
+}
